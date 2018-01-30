@@ -55,8 +55,13 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(27, 128, 211);
+}
+
+nav {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 128, 211);
 }
 
 li {
