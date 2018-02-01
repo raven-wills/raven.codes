@@ -2,6 +2,24 @@ body {
   margin: 20px;
 }
 
+.title {
+  text-align: center;
+  color: #323b5b;
+  margin-bottom: 1.75rem;
+}
+
+.banner {
+  text-align: center;
+  font-size: 10px;
+  background-color: #fd7034;
+  padding: 1.2rem;
+  color: #323b5b;
+}
+
+.banner > img {
+  max-block-size: 450px;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   max-height: 400px;
@@ -39,12 +57,13 @@ body {
   color: inherit;
 }
 
-.image {
+.image > img {
   max-height: 15rem;
-  overflow: hidden;
+  margin: auto;
+  object-fit: cover;
 }
 
-img {
+.image > a > img {
   max-height: 15rem;
   margin: auto;
   object-fit: cover;
@@ -65,7 +84,6 @@ nav {
 }
 
 li {
-  /* float: center; */
   display: inline;
 }
 
