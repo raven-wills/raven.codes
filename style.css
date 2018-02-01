@@ -1,5 +1,6 @@
 body {
   margin: 20px;
+  text-align: center;
 }
 
 .title {
@@ -102,4 +103,10 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: rgb(16, 196, 166);
+}
+
+/* Post Content */
+.post__content {
+  padding: 0.75rem 4rem;
+  font-size: 16px;
 }
